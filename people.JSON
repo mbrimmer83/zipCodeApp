@@ -1,0 +1,19 @@
+{ "people":
+	[{
+		"name": "Matthew",
+		"role": "student",
+    "attr": [{"age": "33", "hair-color": "brown"}]
+	}, {
+		"name": "Kyle",
+		"role": "student",
+    "attr": [{"age": "unknown", "hair-color": "brown"}]
+	}, {
+		"name": "Toby",
+		"role": "teacher",
+    "attr": [{"age": "unknown", "hair-color": "black"}]
+	}, {
+		"name": "Carolyn",
+		"role": "student",
+    "attr": [{"age": "unknown", "hair-color": "brown"}]
+	}]
+}

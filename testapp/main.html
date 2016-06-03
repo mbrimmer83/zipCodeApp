@@ -1,0 +1,13 @@
+<h2>Main Page</h2>
+
+Enter your zip code:</br>
+  <form ng-submit="getZipCode()">
+    <input type="text" ng-model="zipCode">
+    <button>Submit</button><br>
+  </form>
+<p ng-repeat="result in results.places">State: {{result.state}}, {{result['state abbreviation']}}</br>
+City: {{result['place name']}}</br>
+Latitude: {{result.latitude}}</br>
+Longitude: {{result.longitude}}</br>
+Postal Code: {{results['post code']}}</br>
+Country: {{results.country}}, {{results['country abbreviation']}}</p>
